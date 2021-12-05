@@ -13,6 +13,7 @@ function App() {
 
 	useEffect(() => {
 		enableWeb3()
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [])
 
 	// Load web3 and the contract artifact
